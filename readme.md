@@ -1,5 +1,10 @@
 # Python Sentiment Analysis API
 
+This application provides sentiment analysis to the Midterm app from Siraj Raval course.
+
+[Midterm](https://github.com/rodrigoms2004/FinanceMidTermSiraj2019)
+
+
 ### Requirements
 
 
@@ -43,6 +48,36 @@ ps ax | grep app.py
 kill 27036
 ```
 
+### Heroku commands
+
+
+* login in Heroku
+```
+$ heroku login
+```
+
+* Define heroku repo
+```
+$ heroku git:remote -a YOUR_HEROKU_APP_NAME_HERE
+```
+
+* Deploy the app
+```
+$ git push heroku master
+```
+
+#### More commands
+
+Create a *dyno* runinng (Linux Container)
+```
+$ heroku ps:scale web=1
+```
+
+Check app logs
+```
+$ heroku logs --tail
+```
+
 ## Useful links
 
 [Python in Background](https://janakiev.com/blog/python-background/)
@@ -61,3 +96,29 @@ kill 27036
 [Getting Started on Heroku with Python](https://devcenter.heroku.com/articles/getting-started-with-python)
 
 [Heroku dashboard](https://dashboard.heroku.com)
+
+
+## Authors
+
+* **Rodrigo Moraes Silveira**
+*Git hub* - (https://github.com/rodrigoms2004)
+*E-mail*  - rodrigoms2004@gmail.com
+*Discord* - rodrigo.silveira#4776
+
+* **Marco Alessandro de Campos**
+*Git hub* - (https://github.com/titocampos)
+*E-mail*  - titocampos@gmail.com
+*Discord* - titocampos
+
+* **Craig Austin**
+*Git hub* - (https://github.com/WannaBreakout)
+*E-mail*  - craig07may@gmail.com
+*Discord* - cabin
+
+* **Stefan**
+*Git hub* - (https://github.com/Stefan566)
+*E-mail*  - 
+*Discord* - 
+
+
+ 
