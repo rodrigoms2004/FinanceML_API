@@ -115,10 +115,10 @@ $ heroku logs --tail
 *E-mail*  - craig07may@gmail.com
 *Discord* - cabin
 
-* **Stefan**
+* **Stefan Fricke**
 *Git hub* - (https://github.com/Stefan566)
 *E-mail*  - 
-*Discord* - 
+*Discord* - Stefan999
 
 
  
