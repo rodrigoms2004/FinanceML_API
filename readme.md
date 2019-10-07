@@ -57,48 +57,4 @@ kill 27036
 [Install Flask and create your first web application](https://dev.to/sahilrajput/install-flask-and-create-your-first-web-application-2dba)
 
 
-
-
-sudo apt-get install python3.6-gdbm
-
-
-
-sudo apt-get install python3-pip
-
- locale
-locale: Cannot set LC_CTYPE to default locale: No such file or directory
-locale: Cannot set LC_ALL to default locale: No such file or directory
-LANG=en_US.UTF-8
-LANGUAGE=
-LC_CTYPE=pt_BR.UTF-8
-LC_NUMERIC=pt_BR.UTF-8
-LC_TIME=pt_BR.UTF-8
-LC_COLLATE="en_US.UTF-8"
-LC_MONETARY=pt_BR.UTF-8
-LC_MESSAGES="en_US.UTF-8"
-LC_PAPER=pt_BR.UTF-8
-LC_NAME=pt_BR.UTF-8
-LC_ADDRESS=pt_BR.UTF-8
-LC_TELEPHONE=pt_BR.UTF-8
-LC_MEASUREMENT=pt_BR.UTF-8
-LC_IDENTIFICATION=pt_BR.UTF-8
-LC_ALL=
-
-
-$ export LC_ALL=C
-$ locale
-LANG=en_US.UTF-8
-LANGUAGE=
-LC_CTYPE="C"
-LC_NUMERIC="C"
-LC_TIME="C"
-LC_COLLATE="C"
-LC_MONETARY="C"
-LC_MESSAGES="C"
-LC_PAPER="C"
-LC_NAME="C"
-LC_ADDRESS="C"
-LC_TELEPHONE="C"
-LC_MEASUREMENT="C"
-LC_IDENTIFICATION="C"
-LC_ALL=C
+[Heroku Deploy PORTUGUESE CONTENT](https://jtemporal.com/deploy-flask-heroku/)
