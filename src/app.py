@@ -14,7 +14,7 @@ def nao_entre_em_panico():
 @app.route('/api/sentiment', methods=['POST'])
 def sentiment():
     tweets = request.get_json()
-    
+
     sentimentList = []
     
     for tweet in tweets:

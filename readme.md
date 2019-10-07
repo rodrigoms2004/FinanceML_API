@@ -56,5 +56,8 @@ kill 27036
 
 [Install Flask and create your first web application](https://dev.to/sahilrajput/install-flask-and-create-your-first-web-application-2dba)
 
-
 [Heroku Deploy PORTUGUESE CONTENT](https://jtemporal.com/deploy-flask-heroku/)
+
+[Getting Started on Heroku with Python](https://devcenter.heroku.com/articles/getting-started-with-python)
+
+[Heroku dashboard](https://dashboard.heroku.com)
