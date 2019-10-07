@@ -6,7 +6,7 @@
 Install textblob and flask
 
 ```
-pip install flask textblob
+pip install Flask TextBlob
 ```
 
 ### Running
