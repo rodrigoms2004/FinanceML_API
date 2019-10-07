@@ -1,7 +1,7 @@
 import os
 from flask import Flask, jsonify, request
 from textblob import TextBlob
-
+from sentimentAnalysis import sentimentValueFromTweeter
 
 app = Flask(__name__)
 
@@ -29,6 +29,15 @@ def sentiment():
       sentimentList.append(sentiment)
       
     return jsonify({ "success": True, "sentimentList": sentimentList })
+
+
+@app.route('/api/sentimentValue', methods=['POST'])
+def sentimentValue():
+    tweets = request.get_json()
+    
+    sValue = sentimentValueFromTweeter(tweets)
+
+    return jsonify({ "success": True, "sentimentValue": sValue })
 
 
 if __name__ == "__main__":
